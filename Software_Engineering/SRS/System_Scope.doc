@@ -1,0 +1,66 @@
+# System Scope Document
+
+## 1. Purpose
+
+The purpose of this document is to define the scope and boundaries of the Secure Approval-Centric System developed as part of the Software Engineering project. This document outlines what the system will include and what it will not include.
+
+---
+
+## 2. Project Overview
+
+The Secure Approval-Centric System is a web-based application designed to manage approval workflows in a structured and secure manner. The system allows users to submit requests and authorized personnel to approve or reject those requests while maintaining proper tracking and security.
+
+---
+
+## 3. Stakeholders
+
+* End Users (Requesters)
+* Approvers (Authorities)
+* Project Team Members
+* Course Instructor
+
+---
+
+## 4. System Features (In Scope)
+
+The system will include the following features:
+
+1. User Registration and Login (Role-Based Access)
+2. Secure Authentication using JWT
+3. Request Submission Form
+4. Approval and Rejection Workflow
+5. Request Status Tracking
+6. Basic Activity Logging
+7. Logout Functionality
+
+---
+
+## 5. Out of Scope
+
+The system will NOT include:
+
+* Payment processing
+* Advanced analytics dashboard
+* Mobile application
+* Integration with external APIs
+* Multi-level complex workflow engine
+
+---
+
+## 6. Assumptions
+
+* The system will be used in a controlled academic environment.
+* Users will have basic knowledge of web applications.
+* The system will be deployed locally or on a basic cloud platform.
+
+---
+
+## 7. Constraints
+
+* Development will follow Agile methodology.
+* Effort estimation will be done using the COCOMO model.
+* Version control will be managed using GitHub.
+* Project tracking will be managed using Jira.
+
+---
+
