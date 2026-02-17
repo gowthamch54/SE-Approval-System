@@ -1,0 +1,115 @@
+# SOFTWARE REQUIREMENT SPECIFICATION (SRS)
+
+## 1. Introduction
+
+### 1.1 Purpose
+
+This Software Requirement Specification (SRS) document describes the functional and non-functional requirements of the Secure Approval-Centric System. The purpose of this document is to clearly define system behavior and constraints before development.
+
+### 1.2 Scope
+
+The system is a web-based application that allows users to submit requests and authorized users to approve or reject them. The system ensures secure authentication, structured workflow management, and status tracking.
+
+### 1.3 Definitions
+
+* Requester: User who submits approval requests.
+* Approver: Authorized user who approves or rejects requests.
+* JWT: JSON Web Token used for secure authentication.
+* COCOMO: Constructive Cost Model used for effort estimation.
+
+---
+
+## 2. Overall Description
+
+### 2.1 Product Perspective
+
+The system is a standalone web application developed using React (frontend), Node.js with Express (backend), and MongoDB (database).
+
+### 2.2 Product Functions
+
+The main functions of the system include:
+
+* User registration and login
+* Role-based access control
+* Request submission
+* Approval/rejection workflow
+* Request status viewing
+* Logout functionality
+
+### 2.3 User Characteristics
+
+* Users must have basic knowledge of web applications.
+* Approvers will have administrative privileges.
+* All users must authenticate before accessing system features.
+
+### 2.4 Constraints
+
+* Development must follow Agile methodology.
+* Effort estimation must use the COCOMO model.
+* Version control must use GitHub.
+* Project tracking must use Jira.
+
+---
+
+## 3. Functional Requirements
+
+FR-1: The system shall allow users to register and login using secure authentication.
+
+FR-2: The system shall implement role-based access control (Requester and Approver).
+
+FR-3: The system shall allow requesters to submit requests through a structured form.
+
+FR-4: The system shall allow approvers to approve or reject requests.
+
+FR-5: The system shall display request status to the requester.
+
+FR-6: The system shall record basic activity logs.
+
+FR-7: The system shall allow users to logout securely.
+
+---
+
+## 4. Non-Functional Requirements
+
+### 4.1 Security
+
+* The system must use JWT authentication.
+* Passwords must be encrypted.
+* Only authorized users can access approval functions.
+
+### 4.2 Performance
+
+* The system should respond within 2 seconds under normal load.
+* Database queries must be optimized.
+
+### 4.3 Reliability
+
+* The system should maintain data consistency.
+* The system must handle invalid inputs gracefully.
+
+### 4.4 Usability
+
+* The interface must be simple and user-friendly.
+* Error messages must be clear and understandable.
+
+---
+
+## 5. Assumptions and Dependencies
+
+* The system will run on a modern web browser.
+* Internet connection is required.
+* MongoDB server must be operational.
+
+---
+
+## 6. Future Enhancements
+
+* Multi-level approval workflow.
+* Email notifications.
+* Analytics dashboard.
+* Cloud deployment.
+
+---
+
+
+
