@@ -1,42 +1,55 @@
-# An Empirical, Process-Driven Software Engineering Framework for Secure Approval-Centric Systems using Agile, Jira, GitHub, and COCOMO Estimation
+# Software Engineering Design and Implementation of a Role-Based Digital Gate Pass System using Agile and GitHub
+
+---
 
 ## Institution Details
 
 College: SIMATS Engineering  
 Department: Computer Science and Engineering  
-Subject: Software Engineering for Testing  
+Subject: Software Engineering  
 Subject Code: CSA1035  
 
 ---
 
 ## Project Objective
 
-The objective of this project is to demonstrate the practical application of Software Engineering principles by developing a secure approval-centric system using a structured and measurable approach. The project emphasizes Agile methodology, effort estimation using the COCOMO model, project tracking through Jira, and disciplined version control using GitHub.
+The objective of this project is to apply Software Engineering principles in designing and implementing a role-based Digital Gate Pass System. The system automates hostel gate pass approval workflow using a structured SDLC approach, Agile methodology, and version control through GitHub. The project focuses on requirement analysis, modular architecture, workflow modeling, database design, testing, and system validation.
 
 ---
 
 ## Technology Stack
 
-Frontend: React  
-Backend: Node.js with Express  
-Database: MongoDB  
-Authentication: JWT  
+Frontend: HTML, CSS  
+Backend: PHP  
+Database: MySQL  
+Server Environment: XAMPP  
+QR Integration: phpqrcode library & html5-qrcode  
 Version Control: Git & GitHub  
-Project Management: Jira  
-Effort Estimation Model: COCOMO (Organic Model)
+Development Methodology: Agile  
 
 ---
 
 ## Team Members & Roles
 
-1. CH. Gowtham Reddy (192365064) – Team Lead & Agile / Jira Manager  
-2. P. Bharath (192372167) – Documentation Lead (SRS & Reports)  
-3. A. Austin (192421004) – COCOMO & Metrics Analyst  
-4. J. HariKarapandian (192421073) – System Design & UML Designer  
-5. C. Jaya Harish (192421426) – Implementation & GitHub Version Control Lead  
+1. Team Lead – System Integration & Architecture  
+2. Member 1 – Student Module Development  
+3. Member 2 – Mentor & Warden Approval Workflow  
+4. Member 3 – Security Module & QR Integration  
+5. Member 4 – Documentation & Testing  
 
 ---
 
 ## Project Overview
 
-This project focuses on engineering a secure approval-based system while strictly following Software Engineering processes. The system includes role-based authentication, request submission, approval and rejection workflow, and status tracking. The main contribution lies in applying and evaluating software engineering methodologies rather than merely building an application.
+This project presents the design and development of a role-based Digital Gate Pass System that automates hostel movement tracking. The system follows a multi-level approval workflow (Student → Mentor → Warden → Security → Admin) and generates QR codes for secure entry and exit validation.
+
+The project emphasizes the application of Software Engineering principles including:
+
+- Requirement Engineering  
+- Modular System Architecture  
+- Agile-based Incremental Development  
+- Version Control using GitHub  
+- Database Schema Design  
+- Testing and Validation  
+
+The system ensures transparency, security, and real-time tracking of student movement while demonstrating structured software development practices.
